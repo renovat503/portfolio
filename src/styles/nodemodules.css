@@ -1,0 +1,21 @@
+.node-menu-container{
+    margin-top: 5px;
+    float: left;
+   width: 100%;
+}
+.node-menu-container:hover{
+    background-color:#181e2b;
+}
+.node-menu-container:active{
+    border: 1px solid gray;
+}
+.node-dropdown-icon{
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+
+}
+.node-modules-text{
+    font-size: 17px;
+    float: left;
+}

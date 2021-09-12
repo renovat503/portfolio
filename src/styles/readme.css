@@ -1,0 +1,23 @@
+.readme-menu-container{
+    margin-top: 5px;
+    float: left;
+   width: 100%;
+}
+.readme-menu-container:hover{
+    background-color:#181e2b;
+}
+.readme-menu-container:active{
+    border: 1px solid gray;
+}
+.readme-dropdown-icon{
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+    color: steelblue;
+
+}
+.readme-text{
+    font-size: 17px;
+    float: left;
+    margin-left: 10px;
+}

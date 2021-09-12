@@ -1,0 +1,21 @@
+.src-menu-container{
+    margin-top: 5px;
+    float: left;
+   width: 100%;
+}
+.src-menu-container:hover{
+    background-color:#181e2b;
+}
+.src-menu-container:active{
+    border: 1px solid gray;
+}
+.src-dropdown-icon{
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+
+}
+.src-text{
+    font-size: 17px;
+    float: left;
+}

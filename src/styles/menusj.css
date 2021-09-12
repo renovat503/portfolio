@@ -1,0 +1,23 @@
+.menusj-container{
+    margin-top: 5px;
+    float: left;
+   width: 100%;
+}
+.menusj-container:hover{
+    background-color:#181e2b;
+}
+.menusj-icon{
+    float: left;
+    color:yellowgreen;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.menusj-name{
+    font-size: 17px;
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

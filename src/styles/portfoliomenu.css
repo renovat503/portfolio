@@ -1,0 +1,29 @@
+.portfolio-menu-container{
+    margin-top: 10px;
+    float: left;
+}
+.portfolio-dropdown-icon{
+
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.i{
+    font-size: 20px;
+    float: right;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    height: 100%;
+}
+.i:hover{
+    background-color:rgb(44, 44, 44);
+    border-radius: 5px;
+}
+.portfolio-file-icon{
+    margin-left:80px;
+}
+.portfolio-text{
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -1,0 +1,12 @@
+.explorer-container{
+    position: absolute;
+    left: 75px;
+    width: 320px;
+    height: 98%;
+    background-color:#1e2431;
+    float: left;
+    padding: 5px;
+}
+.src-menu-contents{
+    margin-left: 12px;
+}

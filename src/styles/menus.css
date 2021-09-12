@@ -1,0 +1,24 @@
+.menus-container{
+    margin-top: 5px;
+    float: left;
+   width: 100%;
+}
+.menus-container:hover{
+    background-color:#181e2b;
+}
+.menus-icon{
+    float: left;
+    color: sandybrown;
+    font-weight: bolder;
+    font-size: 12;
+    margin-left: 20px;
+    margin-top: 3px;
+
+}
+.menus-name{
+    font-size: 17px;
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

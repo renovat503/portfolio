@@ -1,0 +1,75 @@
+.tabs-wrapper {
+  width: 99%;
+  height: 40px;
+  margin: 5px;
+  position: relative;
+}
+.tab {
+  height: 100%;
+  width: 170px;
+  background-color: #1e2431;
+  position: relative;
+  float: left;
+  margin-left: 10px;
+}
+.tab:hover {
+  background-color: #1e2431;
+  border-bottom: 1.5px solid orange;
+}
+.tab:focus {
+  border-bottom: 1.5px solid orange;
+}
+.icons-wrapper {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+}
+.icon {
+  float: right;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.icon:hover {
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+.icon-close {
+  float: right;
+  font-size: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+.icon-close:hover {
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+.icon-json {
+  float: right;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  color: yellowgreen;
+  float: left;
+}
+.title {
+  display: inline-block;
+  height: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.resume-button {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin-top: 5px;
+  background-color: #1e2431;
+  border: 1px solid #61dafb;
+  color: #61dafb;
+  border-radius: 5px;
+}
