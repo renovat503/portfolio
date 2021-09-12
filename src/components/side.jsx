@@ -29,7 +29,7 @@ class Side extends Component {
                         <span><VscExtensions className="side-icon" /></span>
                     </div>
                     <div className="icon-container github">
-                        <a href="https://github.com/renovat503"><span><VscGithubInverted className="side-icon" /></span></a>
+                        <a target="_blank"href="https://github.com/renovat503"><span><VscGithubInverted className="side-icon" /></span></a>
                     </div>
                     <div className="icon-container settings">
                         <span><VscSettingsGear className="side-icon" /></span>
