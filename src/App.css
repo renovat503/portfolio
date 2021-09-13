@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   position: relative;
-  height: 822px;
+  height: 100vh;
 }
-a{
+a {
   color: #61dafb;
 }
 
