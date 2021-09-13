@@ -1,9 +1,9 @@
 .App {
   text-align: center;
-  position: relative;
-  width: 100%;
+  position: absolute;
   height: 100vh;
-  background-color: #1e2431;
+  width: 1080px;
+  background-color: #2a4685;
 }
 a {
   color: #61dafb;
