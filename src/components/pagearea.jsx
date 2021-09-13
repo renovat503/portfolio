@@ -3,7 +3,6 @@ import '../styles/pagearea.css';
 import Tabs from '../components/tabs';
 import FilePath from '../components/filepath';
 import ContentArea from '../components/contentarea';
-import { BrowserRouter } from 'react-router-dom';
 class PageArea extends Component {
     state = {}
     render() {
