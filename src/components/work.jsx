@@ -12,6 +12,8 @@ class Work extends Component {
                     <Card textOne="Raba" textTwo="Exchange" stacks="HTML/CSS  JS"/>
                     <Card textOne="Anouncement" textTwo="System" stacks="HTML/CSS  JS PHP"/>
                     <DesignCard textOne="Anouncement" textTwo="System" stacks="PS FIGMA"/>
+                    <DesignCard textOne="Anouncement" textTwo="System" stacks="PS FIGMA"/>
+                    <DesignCard textOne="Anouncement" textTwo="System" stacks="PS FIGMA"/>
                     
                     
                 </div>
