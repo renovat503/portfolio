@@ -9,11 +9,11 @@ class Work extends Component {
             <React.Fragment>
                 <div className="main-container">
                     <Card textOne="Message" textTwo="Application" stacks="HTML/CSS  JS"/>
-                    <Card textOne="Raba" textTwo="Exchange" stacks="HTML/CSS  JS"/>
-                    <Card textOne="Anouncement" textTwo="System" stacks="HTML/CSS  JS PHP"/>
-                    <DesignCard textOne="Anouncement" textTwo="System" stacks="PS FIGMA"/>
-                    <DesignCard textOne="Anouncement" textTwo="System" stacks="PS FIGMA"/>
-                    <DesignCard textOne="Anouncement" textTwo="System" stacks="PS FIGMA"/>
+                    <Card textOne="coming" textTwo="soon" stacks="HTML/CSS  JS"/>
+                    <Card textOne="coming" textTwo="soon" stacks="HTML/CSS  JS PHP"/>
+                    <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
+                    <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
+                    <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
                     
                     
                 </div>
