@@ -28,7 +28,6 @@ class About extends Component {
                         
                         
                     </span >
-                    <img className="me" src={me} />
                    
                 </div>
 
