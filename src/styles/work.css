@@ -5,3 +5,6 @@
   overflow: scroll;
   overflow-x: hidden;
 }
+.main-container::-webkit-scrollbar{
+  display: none;
+}
