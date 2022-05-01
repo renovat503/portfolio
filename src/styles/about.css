@@ -46,6 +46,7 @@
   border: 1px solid #61dafb;
   color: #1e2431;
   font-weight: bolder;
+  border-radius: 5px;
 }
 .hire-me:hover {
   width: 200px;

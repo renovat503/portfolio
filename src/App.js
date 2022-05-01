@@ -7,12 +7,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Explorer />
+      {/*<Explorer />*/}
       <PageArea />
-      <Side />
+      {/*<Side />*/}
       <Footer />
     </div>
   );
 }
 
 export default App;
+

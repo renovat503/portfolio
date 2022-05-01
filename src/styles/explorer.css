@@ -1,12 +1,9 @@
 .explorer-container {
-  position: absolute;
   left: 80px;
   width: 320px;
   height: 98%;
   background-color: #1e2431;
-  float: left;
   padding: 5px;
-  z-index: 1;
 }
 .src-menu-contents {
   margin-left: 12px;

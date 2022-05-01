@@ -2,12 +2,9 @@ import React, { Component } from 'react';
 import '../styles/about.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDribbble, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import me from '../images/me.png';
 import { Link } from 'react-router-dom';
 
-
 class About extends Component {
-    state = {}
     render() {
         return (
             <React.Fragment>

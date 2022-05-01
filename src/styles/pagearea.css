@@ -3,5 +3,9 @@
   height: 100%;
   background-color: #1e2431;
   position: absolute;
-  padding-left: 600px;
+  display: flex;
+}
+.side-icons{
+  height: 100%;
+  background-color: aquamarine;
 }
