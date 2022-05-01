@@ -5,6 +5,9 @@
   width: 100%;
   margin-right: 20px;
 }
+.App::-webkit-scrollbar{
+  display: none;
+}
 a {
   color: #61dafb;
 }

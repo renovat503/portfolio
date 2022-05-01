@@ -4,6 +4,7 @@
   background-color: #1e2431;
   position: absolute;
   display: flex;
+  min-width: 1000px;
 }
 .side-icons{
   height: 100%;
