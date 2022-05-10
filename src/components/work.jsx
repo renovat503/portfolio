@@ -31,6 +31,14 @@ class Work extends Component {
                         linkThree = "https://dribbble.com/Renny99"
                         link = "https://netflix99.netlify.app/"
                         /></a>
+            
+                    <a target="_blank"href="https://meetup99.netlify.app/"><Card textOne="Meetup" 
+                        textTwo="Clone" 
+                        stacks="HTML/CSS  JS" 
+                        linkTwo="https://github.com/renovat503/netflix_clone" 
+                        linkThree = "https://dribbble.com/Renny99"
+                        link = "https://netflix99.netlify.app/"
+                        /></a>
                     <Card textOne="coming" textTwo="soon" stacks="HTML/CSS  JS PHP"/>
                     <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
                     <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
