@@ -39,7 +39,7 @@ class Work extends Component {
                         linkThree = "https://dribbble.com/Renny99"
                         link = "https://netflix99.netlify.app/"
                         /></a>
-                    <a target="_blank"href="https://shoeboxx.netlify.app/"><Card textOne="shoebox" 
+                    <a target="_blank"href="https://shoeboxx.netlify.app/"><Card textOne="Shoebox" 
                         textTwo="Marketplace" 
                         stacks="Chakra UI  JS" 
                         linkTwo="https://github.com/renovat503/shoebox" 
@@ -47,8 +47,6 @@ class Work extends Component {
                         link = "https://shoeboxx.netlify.app/"
                         /></a>
                     <Card textOne="coming" textTwo="soon" stacks="HTML/CSS  JS PHP"/>
-                    <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
-                    <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
                     <DesignCard textOne="coming" textTwo="soon" stacks="PS FIGMA"/>
                     
                     
