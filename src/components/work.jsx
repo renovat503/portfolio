@@ -20,7 +20,7 @@ class Work extends Component {
                         stacks="HTML/CSS  JS" 
                         linkTwo="https://github.com/renovat503/netflix_clone" 
                         linkThree = "https://dribbble.com/Renny99"
-                        link = "https://netflix99.netlify.app/"
+                        link = "https://meetup99.netlify.app/"
                         /></a>
 
                     <a target="_blank"href="https://umbrella99.netlify.app/"><Card textOne="Weather" 
