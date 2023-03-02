@@ -8,7 +8,7 @@ class Work extends Component {
         return (
             <React.Fragment>
                 <div className="main-container">
-                    <a target="_blank"href="https://sneaks.netlify.app/"><Card textOne="Shoebox" 
+                    <a target="_blank"href="https://sneakx.netlify.app/"><Card textOne="Shoebox" 
                         textTwo="Marketplace" 
                         stacks="Chakra UI  JS" 
                         linkTwo="https://github.com/renovat503/shoebox" 
