@@ -15,6 +15,13 @@ class Work extends Component {
                         linkThree = "https://dribbble.com/Renny99"
                         link = "https://sneakx.netlify.app/"
                         /></a>
+                    <a target="_blank"href="https://visitlittlelemon.netlify.app/"><Card textOne="Little Lemon" 
+                        textTwo="Home page" 
+                        stacks="Chakra UI  JS" 
+                        linkTwo="https://github.com/renovat503/Capstone" 
+                        linkThree = "https://dribbble.com/Renny99"
+                        link = "https://visitlittlelemon.netlify.app/"
+                        /></a>
                      <a target="_blank"href="https://meetup99.netlify.app/"><Card textOne="Meetup" 
                         textTwo="Clone" 
                         stacks="HTML/CSS  JS" 
