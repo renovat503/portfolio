@@ -8,7 +8,7 @@ class Work extends Component {
         return (
             <React.Fragment>
                 <div className="main-container">
-                    <a target="_blank"href="https://payinapo.azurewebsites.net/"><Card textOne="Payinapo" 
+                    <a target="_blank"href="https://app.payinapo.com/"><Card textOne="Payinapo" 
                         textTwo="Web app" 
                         stacks=".Net Core JS" 
                         linkTwo="https://github.com/renovat503/" 
