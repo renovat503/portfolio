@@ -13,7 +13,7 @@ class Work extends Component {
                         stacks=".Net Core JS" 
                         linkTwo="https://github.com/renovat503/" 
                         linkThree = "https://dribbble.com/Renny99"
-                        link = "https://payinapo.azurewebsites.net/"
+                        link = "https://app.payinapo.com/"
                         /></a>
                     <a target="_blank"href="https://sneakx.netlify.app/"><Card textOne="Shoebox" 
                         textTwo="Marketplace" 
