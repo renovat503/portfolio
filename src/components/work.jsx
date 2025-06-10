@@ -10,7 +10,7 @@ class Work extends Component {
                 <div className="main-container">
                     <a target="_blank"href="https://payinapo.com"><Card textOne="Payinapo" 
                         textTwo="Web app" 
-                        stacks="RN/.Net Core JS" 
+                        stacks="React/.Net Core JS" 
                         linkTwo="https://github.com/renovat503/" 
                         linkThree = "https://dribbble.com/Renny99"
                         link = "https://payinapo.com"
