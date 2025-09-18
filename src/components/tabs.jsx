@@ -19,7 +19,7 @@ class Tabs extends Component {
                         <VscChromeClose className="icon-close" />
                         <VscJson className="icon-json" />
                     </div>
-                    <a target="_blank" href="https://drive.google.com/file/d/1wQwCndAg9CgD5yeOiNvpoT2t-c5S2n52/view?usp=sharing"><button className = "resume-button">Resume</button></a>
+                    <a target="_blank" href="https://docs.google.com/document/d/1HPh1GSZqvCS_IMSCXrHDXFLGTqI5832M/edit"><button className = "resume-button">Resume</button></a>
                     <div className="icons-wrapper">
                         <VscEllipsis className="icon" />
                         <VscSplitHorizontal className="icon" />
