@@ -8,9 +8,58 @@
   position: relative;
   border: 1px solid transparent;
 }
+
+/* Featured variant */
+.card--featured {
+  width: 300px;
+  height: 330px;
+  background-color: #1b3957;
+  color: white;
+  border: 2px solid #ffd700;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  z-index: 2;
+  margin-right: 35px;
+}
+.card--featured .card-text {
+  color: #d3d3d3; /* light gray when not active */
+}
+.card--featured .card-icon {
+  color: #d3d3d3;
+}
+.card--featured .stacks {
+  color: #d3d3d3;
+}
+
+.card--featured a {
+  color: #d3d3d3; /* links/icons inactive */
+}
+.featured-badge {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  background: #ffd700;
+  color: #0f2a45;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
 .card:hover {
   background-color: #181e2b;
   border: 1px solid white;
+}
+.card--featured:hover {
+  background-color: #0b2b4a; /* keep featured bg on hover */
+  border-color: #ffd700;
+}
+.card--featured:hover .card-text,
+.card--featured:hover .stacks,
+.card--featured:hover .card-icon {
+  color: white;
+}
+
+.card--featured:hover a {
+  color: white;
 }
 .card:hover .stacks {
   color: white;
@@ -31,7 +80,7 @@
   float: right;
   margin-right: 15px;
   font-weight: bolder;
-  color: #181e2b;
+  color: #37393e;
 }
 .stacks {
   position: absolute;

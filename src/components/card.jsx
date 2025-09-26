@@ -6,9 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faDribbble} from '@fortawesome/free-brands-svg-icons';
 class Card extends React.Component {
     render() { 
+        const featuredClass = this.props.featured ? ' card--featured' : '';
         return <React.Fragment>
-                    
-                        <div className = "card">
+                        <div className = {"card" + featuredClass}>
+                            {this.props.featured && <div className="featured-badge">Featured</div>}
                             <div className="icons">
                                 <span className="card-icon"><a target="_blank" href={this.props.link}><VscLinkExternal /></a></span>
                                 <span className="card-icon"><a target="_blank" href={this.props.linkThree}><FontAwesomeIcon icon={faDribbble} ></FontAwesomeIcon></a></span>

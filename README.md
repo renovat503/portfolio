@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Notes on OpenSSL / Node 17+ build error
+
+If you see an error like:
+
+```
+Error: error:0308010C:digital envelope routines::unsupported
+code: 'ERR_OSSL_EVP_UNSUPPORTED'
+```
+
+This comes from Node 17+ using OpenSSL 3 which disables some legacy algorithms used by older Webpack/crypto flows. Two safe ways to address it:
+
+- Preferred (non-invasive): we added `cross-env` and update scripts to set the legacy OpenSSL provider. Run scripts as usual (`npm start`, `npm run build`) — they already set `NODE_OPTIONS=--openssl-legacy-provider` for you.
+- Alternative: use Node 16 (LTS) which does not have this breaking change.
+
+If you'd rather not modify package scripts, you can also set the env var manually when running, for example on Windows PowerShell:
+
+```
+$env:NODE_OPTIONS = "--openssl-legacy-provider"; npm start
+```
+
